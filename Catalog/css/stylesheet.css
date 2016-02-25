@@ -1,0 +1,97 @@
+html {
+	background-image: url("../images/water_pokemon.jpg");
+	background-size: cover;
+	color: #FFD700;
+	font-family: "Helvetica";
+}
+
+body {
+	margin: 0px;
+	position: relative;
+}
+
+#header {
+	background-color: #1E90FF;
+	font-size: 16px;
+	text-align: center;
+	border: 2px solid #00008B;
+	border-width: 2px 0;
+}
+
+#menubar li {
+	display: inline;
+}
+
+#menubar a, a:visited {
+	padding: 7px;
+	font-size: 24px;
+	text-decoration: none;
+	color: #FFD700;
+}
+
+#content {
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+#resetter {
+	margin: 0 auto;
+	display: block;
+}
+
+.pokemon {
+	opacity: 0.9;
+	background-color: #1E90FF;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.searchMon {
+	opacity: 0.9;
+	background-color: #1E90FF;
+	margin: 0 auto;
+	border:3px solid #00008B;
+}
+
+#header {
+	opacity: 0.9;
+}
+
+.poke_name {
+	text-decoration:underline;
+	font-size:24px;
+}
+.poke_image {
+	float:right;
+	transform: translateY(-60%);
+	height:230px;
+	width:230px;
+}
+
+#abilityAdd {
+	width:350px;
+}
+
+#abilitySearch {
+	width:250px;
+}
+
+.optionalAbility {
+	margin-left: 5px;
+}
+
+form {
+	width: 25%;
+	background-color: #1E90FF;
+	opacity: 0.9;
+	margin: 0 auto;
+}
+
+#footer {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	font-size: 12px;
+}
