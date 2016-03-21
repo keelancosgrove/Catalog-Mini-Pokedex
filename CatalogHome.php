@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<html>
+<html class="catalog">
 
 <head>
 	<meta charset="UTF-8">
-	<title>Water-Type Pokemon</title>
+	<title>Pokemon Catalog</title>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<!--Displays a warning message to be used when user tries to reset form. 
 	Code ideas taken from http://www.techtut.com/Tutorial/JavaScript/91-Creating-warning-messages-in-submit-forms.html -->

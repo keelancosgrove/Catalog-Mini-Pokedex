@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<html>
+<html class="catalog">
 
 <head>
 	<meta charset="UTF-8">
-	<title>Add a Pokemon</title>
+	<title>Add a Pokemon </title>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 
@@ -16,7 +16,7 @@
 		<div id="content">
 			<!--Creates form to update data.txt, thus adding a Pokemon to index.php -->
 			<form action="add.php">
-				Add a Pokemon (it doesn't necessarily have to be water type):
+				Add a Pokemon to the catalog:
 				<br>
 				<br>
 				<label>Name (Required)</label>
