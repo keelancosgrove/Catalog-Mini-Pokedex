@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="catalog">
 
 <head>
 	<meta charset="UTF-8">
@@ -15,7 +15,7 @@
 
 		<div id="content">
 			<form>
-				Search for a Pokemon (must use at least one field)
+				Search for a Pokemon in the catalog (must use at least one field)
 				<br>
 				<br>
 				<label>Name</label>

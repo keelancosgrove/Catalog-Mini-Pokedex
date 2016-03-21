@@ -1,13 +1,48 @@
-html {
+.catalog {
 	background-image: url("../images/water_pokemon.jpg");
 	background-size: cover;
 	color: #FFD700;
 	font-family: "Helvetica";
 }
 
+.other {
+	font-family: "Helvetica";
+	color: #B22222;
+	background-image: url("../images/ab_background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.sections {
+	list-style-type: none;
+	display: inline-flex;
+}
+
 body {
 	margin: 0px;
 	position: relative;
+}
+
+.pokePhoto {
+	height: 350px;
+	width: 350px;
+}
+
+.photoDesc{
+	color: #B22222;
+}
+
+.homeSelect {
+	padding: 20px;
+}
+
+.homepage {
+	text-align:center;
+	top:50%;
+	position: initial;
+}
+
+#imageNav {
 }
 
 #header {
@@ -22,11 +57,23 @@ body {
 	display: inline;
 }
 
-#menubar a, a:visited {
+a, a:visited {
 	padding: 7px;
 	font-size: 24px;
 	text-decoration: none;
 	color: #FFD700;
+}
+
+.notCatalog, .notCatalog:visited{
+	color: #B22222;
+}
+
+.notCatalog:hover {
+	background-color: #FF7F50;
+}
+
+#homeSections {
+	list-style-type: none;
 }
 
 #content {
@@ -87,11 +134,12 @@ form {
 	margin: 0 auto;
 }
 
+.albumForm {
+	background-color: #FF7F50;
+}
+
 #footer {
 	width: 100%;
-	height: 50px;
-	position: absolute;
-	bottom: 0px;
-	text-align: center;
+	text-align: left;
 	font-size: 12px;
 }
